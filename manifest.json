@@ -1,0 +1,22 @@
+{
+    "name": "Haxle",
+    "description": "Win at Hexle every day!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["scripting", "activeTab"],
+    "action": {
+        "default_icon": {
+            "16": "/images/haxle16.png",
+            "32": "/images/haxle32.png",
+            "48": "/images/haxle48.png",
+            "128": "/images/haxle128.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "/images/haxle16.png",
+        "32": "/images/haxle32.png",
+        "48": "/images/haxle48.png",
+        "128": "/images/haxle128.png"
+    }
+}
