@@ -3,7 +3,6 @@
     "description": "Win at Hexle every day!",
     "version": "1.0",
     "manifest_version": 3,
-    "permissions": ["scripting", "activeTab"],
     "action": {
         "default_icon": {
             "16": "/images/haxle16.png",
