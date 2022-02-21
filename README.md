@@ -2,7 +2,7 @@
 Win at Hexle and Bytle every day!
 Haxle is a browser extension that gives you the Hexle and Bytle numbers every day for that perfect streak! Hexle and Bytle are created by my friend [James Livesey](https://github.com/James-Livesey).
 ## Install
-The latest Haxle version is 1.1, as defined in [](../blob/main/manifest.json)
+The latest Haxle version is 1.1, as defined in [manifest.json](../blob/main/manifest.json).
 Clone the repository or download a ZIP.
 Go to chrome://extensions and enable developer mode.
 Press 'load unpacked' and select the Haxle folder you downloaded.
