@@ -9,6 +9,6 @@ Today's Hexle and Bytle numbers will display when you open the extension.
 ## Install from CRX
 Download the latest CRX from the releases tab. Drag it onto <chrome://extensions>. This seems to work on some platforms, but will not work on others. If it doesn't work, install from source.
 ## Install from my browser's webstore
-Microsoft Edge Addons - <https://microsoftedge.microsoft.com/addons/detail/haxle/lmldlfkglljkfhklfpadigdaihhfmiko>
-Chrome Web Store - Coming, eventually...
-Firefox Browser Add-ons - Nearly ready!
+- Microsoft Edge Addons - <https://microsoftedge.microsoft.com/addons/detail/haxle/lmldlfkglljkfhklfpadigdaihhfmiko>
+- Chrome Web Store - Coming, eventually...
+- Firefox Browser Add-ons - Nearly ready!
