@@ -1,7 +1,7 @@
 {
     "name": "Haxle",
     "description": "Win at Hexle every day!",
-    "version": "1.1",
+    "version": "1.2",
     "manifest_version": 3,
     "action": {
         "default_icon": {
