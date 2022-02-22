@@ -1,10 +1,62 @@
+:root {
+    --correct: #6aaa64;
+    --correctText: white;
+    --almost: #c9b458;
+    --almostText: white;
+    --notQuite: #787c7e;
+    --notQuiteText: white;
+    --notYet: #d8d8d8;
+    --notYetText: black;
+}
 body {
     font-family: "Overpass", sans-serif;
-    background-color: #6aaa64;
-    color: #FFFFFF;
-    width: 140px;
+    width: 200px;
     text-align: center;
 }
-#haxleCell {
+hexle-board {
+    display: block;
+    width: 50%;
+    min-width: 200px;
+    margin: auto;
+    color: #ffffff;
+}
+
+hexle-row {
+    display: flex;
+}
+
+hexle-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin: 3px;
+    color: transparent;
+    border: 2px solid var(--notYet);
     text-transform: uppercase;
+}
+
+hexle-cell[hexle-state="correct"] {
+    transform: rotateX(360deg);
+    animation: flip 0.5s forwards;
+    animation-timing-function: ease-in-out;
+    transition: 0.01s background-color ease 0.3s, 0.01s color ease 0.3s, 0.01s border ease 0.3s;
+    background-color: var(--correct);
+    color: var(--correctText);
+    border: 2px solid transparent;
+}
+
+@keyframes flip {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    50% {
+        transform: rotateX(90deg);
+    }
+
+    100% {
+        transform: rotateX(0deg);
+    }
 }
